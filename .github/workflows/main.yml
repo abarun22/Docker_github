@@ -33,4 +33,4 @@ jobs:
       -
         name: Inspect
         run: |
-          docker image inspect ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
+          docker image inspect abarun/clockbox:latest
