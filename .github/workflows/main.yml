@@ -29,8 +29,8 @@ jobs:
           file: ./Dockerfile
           
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
+          tags: abarun/clockbox:latest
       -
         name: Inspect
         run: |
-          docker image inspect abarun / clockbox:latest
+          docker image inspect abarun/clockbox:latest
