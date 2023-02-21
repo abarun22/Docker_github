@@ -40,4 +40,4 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest            
-            ghcr.io/clockbox:latest
+            ghcr.io/abarun/clockbox:latest
