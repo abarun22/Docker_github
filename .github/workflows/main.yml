@@ -37,11 +37,6 @@ jobs:
         with:
           context: .
 #          platforms: linux/amd64,linux/arm64
-          push: true
-          tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest            
-            docker build . --tag ghcr.io/abarun22/demo:latest
-            docker run ghcr.io/abarun22/docker_github:latest
-            docker push ghcr.io/abarun22/docker_github:latest
+          push: true         
             
             
