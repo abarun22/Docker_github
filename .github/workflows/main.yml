@@ -40,4 +40,4 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest            
-            ghcr.io/abarun22/Docker_github:latest
+            ghcr.io/abarun22/docker_github:latest
