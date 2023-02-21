@@ -7,7 +7,7 @@ RUN cd /home && \
     mkdir build && \
     mkdir install && \
     apt update && \
-#    apt install -y wget && \
+    apt install -y wget && \
     apt install -y vim && \
     wget https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8/hdf5-1.8.13/src/hdf5-1.8.13.tar.gz && \
     tar -xzvf hdf5-1.8.13.tar.gz && \
