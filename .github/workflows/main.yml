@@ -40,5 +40,5 @@ jobs:
           push: true         
           tags: |            
             ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
-            ghcr.io/${{ github.repository_owner }}/clockbox:latest            
+            ghcr.io/${{ github.repository_owner }}/demo         
             
