@@ -37,4 +37,4 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          repository: abarun/hello-world
+          repository: ${{ secrets.DOCKERHUB_USERNAME }}/hello-world
