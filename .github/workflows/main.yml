@@ -33,7 +33,7 @@ jobs:
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/hello-world:latest
       - name: NPM cache
         run: |
-          npm cache clean.
+          npm cache clean
           
       - name: Update repo description
         uses: peter-evans/dockerhub-description@v3
