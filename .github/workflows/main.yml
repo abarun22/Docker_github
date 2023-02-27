@@ -23,3 +23,6 @@ jobs:
           build-contexts: |
             alpine=docker-image://alpine:3.16
           tags: arunimage:latest
+      - name: List images
+        run: |
+           docker images
