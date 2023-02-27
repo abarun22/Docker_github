@@ -20,6 +20,6 @@ jobs:
           build-contexts: |
             ubuntu=docker-image://ubuntu:20.05
           tags: myimage_pin:latest
-     - name: List image
-       run: |
+      - name: List image
+        run: |
            docker images
