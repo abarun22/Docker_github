@@ -21,7 +21,7 @@ jobs:
         with:
           context: .
           build-contexts: |
-            alpine=docker-image://alpine:3.14
+            alpine=docker-image://alpine:3.12
           tags: arunimage:latest
       - name: List images
         run: |
