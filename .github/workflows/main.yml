@@ -17,8 +17,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          build-contexts: |
-            ubuntu=docker-image://ubuntu:20.05
+          build-contexts: |            
           tags: myimage_pin:latest
       - name: List image
         run: |
